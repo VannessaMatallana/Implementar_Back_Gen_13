@@ -20,7 +20,7 @@ public class CorsConfig {
 
         // Permite solicitudes desde cualquier origen.
         // En producción esto se restringe al dominio del frontend.
-        config.addAllowedOriginPattern("*");
+        config.addAllowedOriginPattern("https://vannessamatallana.github.io/Deploy_Front_Gen_13/");
 
         // Permite los métodos HTTP que usa el frontend.
         config.addAllowedMethod("GET");
